@@ -1049,7 +1049,7 @@ impl<'a, Ty> TyLayout<'a, Ty> {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use spec::{Target, TargetTriple, };
+    use crate::spec::{Target, TargetTriple, };
 
     #[test]
     fn pointer_size_align() {
